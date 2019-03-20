@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meal Randomizer</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    </head>
+<body>
+    
+
+
+ <script>
+// //Trying to get all meals from DB and randomize
+//     function randomizeDbTest(){
+//     var ranMealDb = homemeals[Math.floor(Math.random()*homemeals.length)];
+//     if(ranMealDb.type === "breakfast"){
+//         return ranMealDb.name;
+//     } 
+//     }
+ </script>
+
+
+
+    <div class="container">
+            <div class="jumbotron">
+                <h1><i class="fas fa-carrot"></i> The Meal Randomizer</h1>
+                <!-- Got this icon from Font Awesome -->
+                <p>So Erin Doesn't Have To Think About Meal Planning</p>
+            </div>
+            
+            
+            
+             <div>
+                <button onclick="getElementById('test').innerHTML = randomizeDbTest()" type="button" class="btn btn-primary" id="homeBreakfast">Randomize</button>
+                <p id='test'>?</p>
+                
+            </div>
+            
+            <div>
+                <p>
+                    <a class="btn btn-primary btn-large" href="/views/meals/new">Add New Meal</a>
+                </p>
+            </div>
+
+            <h1>Home</h1>
+            
+            <div class="row">  <!--Don't need a new row for them to wrap -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <p>Breakfast</p>
+                        <a>
+                            <img src="https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                        </a>
+                        <button class="btn btn-danger">Randomize</button>
+                        <p>Random Meal</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <p>Lunch</p>
+                        <a>
+                            <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                        </a>
+                        <button class="btn btn-danger">Randomize</button>
+                        <p>Random Meal</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <p>Dinner</p>
+                        <a>
+                            <img src="https://images.unsplash.com/photo-1532597311687-5c2dc87fff52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                        </a>
+                        <button class="btn btn-danger">Randomize</button>
+                        <p>Random Meal</p>
+                    </div>
+                </div>
+                </div>
+
+
+
+                <h1>Restaurants</h1>
+                <div class="row">  <!--Don't need a new row for them to wrap -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="thumbnail">
+                            <p>Breakfast</p>
+                            <a>
+                                <img src="https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                            </a>
+                            <button class="btn btn-danger">Randomize</button>
+                            <p>Random Meal</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="thumbnail">
+                            <p>Lunch</p>
+                            <a>
+                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                            </a>
+                            <button class="btn btn-danger">Randomize</button>
+                            <p>Random Meal</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="thumbnail">
+                            <p>Dinner</p>
+                            <a>
+                                <img src="https://images.unsplash.com/photo-1532597311687-5c2dc87fff52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                            </a>
+                            <button class="btn btn-danger">Randomize</button>
+                            <p>Random Meal</p>
+                        </div>
+                    </div>
+                    </div>
+
+    </div>
+
+
+    <h3>Things to add to this app:</h3>
+    <ul>
+        <li>Pics of meals</li>
+        <li>Login and logout for different users</li>
+        <li>Place to enter meals for randomization</li>
+        <li>Way to edit and delete meals from randomization</li>
+        <li>Way to select veggie or meat options or all</li>
+        <li>Clickable randomizer button</li>
+        <li>Way to display random selection</li>
+        <li>Eat In or Out?</li>
+        <li>Breakfast, Lunch, Dinner?</li>
+    </ul>
+
+
+</body>
+</html>

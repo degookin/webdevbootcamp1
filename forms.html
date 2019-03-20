@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- Inside a form are two attributes, action - where the form sends data to, and method, what HTTP method -->
+
+<form>
+	<label>
+		Username:
+		<input type="text" placeholder="username" name="username"></>
+	</label>
+	<!-- Label is visual and lets screen reading software read the page -->
+
+	<label>
+		Password:
+		<input type="password" placeholder="password" name="password">
+	</label>
+
+	<input type="Submit" name="">
+	<!-- Can also do <button> for Submit -->
+</form>
+
+
+
+<!-- Non nested labels with for and id that correspond -->
+<form>
+	<label for="username">Username:</label>
+	<input id="username" type="email" placeholder="email" required name="username">
+	<!-- putting type as email automatically does validation on format -->
+
+	<label for="password">Password:</label>
+	<input id="password" type="password" required placeholder="password" name="password">
+	<!-- required attribute makes it so they can't move on blank -->
+
+	<input type="Submit" name="">
+	<!-- Can also do <button> for Submit -->
+</form>
+
+
+</body>
+</html>

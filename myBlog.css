@@ -1,0 +1,47 @@
+body {
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	/*the max-width and width are for RWD. It's 700px until it gets to 80% size*/
+	margin: 20px auto;
+	/*padding: 1%;
+	width: 50%;
+	margin-left: 25%;  my solution*/
+	font-family: Raleway;
+	/*added font-fam to body instead of having to do for all elements*/
+}
+
+
+h2 {
+	/*font-family: Raleway;*/
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing: 0.2rem;
+	font-size: 1.25rem;
+	/*0.2 of the font size. rem refers back to the root element,
+	so you don't have to worry about what's nested inside of what like with em */
+}
+
+p {
+	/*font-family: Raleway;*/
+	font-weight: 700;
+}
+
+.first {
+	border-left: 5px solid #bdc3c7;
+	padding: 10px;
+	height: 10%;
+}
+
+/*#bottom {
+	border-bottom: 1px solid #bdc3c7;
+	padding-bottom: 10px;
+}  Don't need this now with the <hr>*/
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/*found this by googling hr style*/

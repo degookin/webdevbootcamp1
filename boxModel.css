@@ -1,0 +1,26 @@
+p {
+
+/*Content - Width and Height is changing the paragraph box, not the text.
+Instead of px you can use % which is percent of page*/
+
+width: 200px;
+height: 50px;
+
+/*border*/
+
+border: 2px solid blue;
+/*border-top: 2px;*/
+
+/*padding*/
+
+padding: 10px;
+padding-left: 20px;
+
+
+/*Margin*/
+
+margin: 100px;
+/*margin-right: 200px;*/
+/*margin: 20px 40px 500px 100px;  This is an easy way to do margins on all sides*/
+/*margin: 0 auto 0 auto;  Does auto margin based on centering*/
+}

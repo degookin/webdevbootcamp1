@@ -1,0 +1,33 @@
+
+// in the node command line
+
+mkdir - makes new folder
+touch fileName.fileType - creates new file
+cd dirName - takes you into directory
+cd .. - takes you back one level
+ls - lists files in current directory
+
+
+npm init
+// walks you through creating a package.json file
+
+npm install express
+// installs express or whatever package you choose
+
+npm install express --save
+// installs express and adds it to the dependency list in package.json
+
+node file.js
+// runs the file or starts the server with that file
+
+ctrl + c
+// stops the server
+
+
+
+
+
+
+
+
+

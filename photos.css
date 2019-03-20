@@ -1,0 +1,22 @@
+img {
+	width: 30%;
+	float: left;
+	/*.HTML added spacing, but we want to set ourselves, so float says an element should be placed along the left or right side
+	of it's container, it's removed from the normal flow*/
+	margin: 1.66%;
+	/*We have 3 images set to 30% each, that leaves 10% spacing on the page.
+	We spread them out evenly with 6 margins (2 for each image) and 10/6=1.66*/
+}
+
+p {
+	font-family: Raleway;
+	margin-left: 1.66%;
+	/*to match where the first pic starts*/
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	/*could just alter the html*/
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}

@@ -1,0 +1,31 @@
+/* Pseudoclass is a way to trigger an animation */
+/* element:pseudclass */
+
+div:hover {
+    background: purple;
+}
+
+input:focus {
+    color: red;
+}
+
+button:focus {
+    border-radius: 10px;
+    background: #2eec71
+}
+
+button:active {
+    color: blue;
+}
+
+h1:active, p:active {
+    color: yellow;
+}
+
+
+
+
+
+
+
+

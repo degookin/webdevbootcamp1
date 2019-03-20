@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid</title>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap2.css"> -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<style type="text/css">
+		.pink {
+			background: pink;
+			border: 1px solid purple;
+		}
+		.orange {
+			background: orange;
+			border: 1px dashed red;
+			height: 40px;
+		}
+	</style>
+</head>
+<body>
+
+<!-- ==================================== -->
+<!--              OBJECTIVES              -->
+<!-- 1. Understand Purpose of Grid System -->
+<!-- 2. Understand the 4 different sizes  -->
+<!-- 3. Write Nested Grids                -->
+<!-- ==================================== -->
+
+
+<!-- 12 is the magic number for the grid system. 12 units going across any container. When screen is lg each takes up 1 unit.  When screen shrinks to med, each takes up 2 so they go to stacked in two rows -->
+
+<div class="container">
+	<!-- <div class="row">
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+	</div> -->
+	<div class="row">
+		<!-- Below split the first 3 units into 12 of it's own, 6 each -->
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 pink">
+			<div class="row">
+				<div class="col-lg-6 orange">FIRST HALF</div>
+				<div class="col-lg-6 orange">OTHER HALF</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 pink">TOUR DATES</div>
+		<!-- Don't need lg if it's the same as med, browser will assume -->
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 pink">TOUR DATES</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 pink">
+			<div class="row">
+				<div class="col-lg-2 orange">A</div>
+				<div class="col-lg-2 orange">B</div>
+				<div class="col-lg-2 orange">C</div>
+				<div class="col-lg-2 orange">D</div>
+				<div class="col-lg-2 orange">E</div>
+				<div class="col-lg-2 orange">F</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

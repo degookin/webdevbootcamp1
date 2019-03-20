@@ -1,0 +1,13 @@
+li {
+	border: 2px dashed red;
+}
+
+#testing {
+	background: yellow;
+}
+/*this is referenced from the id in html to only change that one*/
+
+.completed {
+	text-decoration: line-through;
+}
+/*referenced from the class completed*/

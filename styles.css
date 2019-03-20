@@ -1,0 +1,48 @@
+/*font-family*/
+
+p {
+	font-family: Raleway;
+}
+
+h1 {
+	font-family: Indie Flower;
+	/*from fonts.google.com in the html file*/
+}
+
+/*font-size*/
+h1 {
+	font-size: 20px;
+}
+
+span {
+	font-size: 1.5em;
+	color: red;
+}
+		/*The span is inline container that allows you to group elements for styling purposes.
+		The em is dynamic, we didn't give it a size, so it takes the parent font-size and does 1.5x*/
+
+/*font-weight*/
+
+p {
+	font-weight: normal;
+}
+
+
+/*line-height*/
+
+p {
+	line-height: 1.5;
+}
+
+/*text-align*/
+
+h1 {
+	text-align: center;
+}
+
+/*text-decoration*/
+
+h1 {
+	text-decoration: underline;
+}
+
